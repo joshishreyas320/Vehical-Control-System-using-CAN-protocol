@@ -1,0 +1,23 @@
+*** Creating Trace Output File 'Node_B.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"nodeb_interrupt.o"'
+### List of Objects: adding '"node_b_main.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"can2_nodeb_driver.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "nodeb_interrupt.o" "node_b_main.o" "delay.o" "can2_nodeb_driver.o" --strict --scatter "Node_B.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Node_B.map" -o "Node_B.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Node_B.axf'
+### ADS-LD Command File: 'Node_B.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Node_B.lnp', Handle=0x00000230
+### Writing '.lnp' file
+### ADS-LD Command file 'Node_B.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
