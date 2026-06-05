@@ -1,0 +1,19 @@
+Dependencies for Project 'Node_A', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x66854335)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Can_Node_A_Driver.c)(0x66854335)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\can_node_a_driver.o --omf_browse .\can_node_a_driver.crf --depend .\can_node_a_driver.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532CC4C8)
+I (header.h)(0x66854335)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C89844)
+F (.\Node_A_Interrupt.c)(0x66854335)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\node_a_interrupt.o --omf_browse .\node_a_interrupt.crf --depend .\node_a_interrupt.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532CC4C8)
+I (header.h)(0x66854335)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C89844)
+F (.\Node_a_main.c)(0x68692A58)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\node_a_main.o --omf_browse .\node_a_main.crf --depend .\node_a_main.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532CC4C8)
+I (header.h)(0x66854335)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C89844)
+F (.\Uart_Driver.c)(0x6871EA65)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart_driver.o --omf_browse .\uart_driver.crf --depend .\uart_driver.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532CC4C8)
+I (header.h)(0x66854335)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C89844)
+F (.\header.h)(0x66854335)()
